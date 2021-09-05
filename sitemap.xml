@@ -2,22 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://keisari.ch/</loc>
-         <lastmod>2021-08-30</lastmod>
+         <lastmod>2021-09-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://keisari.ch/about/</loc>
-         <lastmod>2021-08-30</lastmod>
+         <lastmod>2021-09-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://keisari.ch/resume/</loc>
-         <lastmod>2021-08-30</lastmod>
+         <loc>https://keisari.ch/resume_en/</loc>
+         <lastmod>2021-09-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://keisari.ch/resume_fr/</loc>
+         <lastmod>2021-09-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://keisari.ch/tf/</loc>
-         <lastmod>2021-08-30</lastmod>
+         <lastmod>2021-09-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
