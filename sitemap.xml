@@ -11,17 +11,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://keisari.ch/resume_en/</loc>
-         <lastmod>2021-09-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://keisari.ch/resume_fr/</loc>
-         <lastmod>2021-09-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://keisari.ch/tf/</loc>
+         <lastmod>2021-09-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://keisari.ch/en/resume_en/</loc>
+         <lastmod>2021-09-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://keisari.ch/fr/resume_fr/</loc>
          <lastmod>2021-09-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
