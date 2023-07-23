@@ -1,0 +1,3 @@
+Order Deny,Allow
+Deny from all
+Allow from 77.74.86.2
