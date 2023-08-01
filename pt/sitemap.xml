@@ -2,17 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://keisari.ch/</loc>
-         <lastmod>2023-07-29</lastmod>
+         <lastmod>2023-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://keisari.ch/blog/</loc>
-         <lastmod>2023-07-29</lastmod>
+         <lastmod>2023-08-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://keisari.ch/blog/2022/01/31/hello-world/</loc>
+         <lastmod>2023-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://keisari.ch/resume/resume/</loc>
-         <lastmod>2023-07-29</lastmod>
+         <lastmod>2023-08-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://keisari.ch/blog/archive/2022/</loc>
+         <lastmod>2023-08-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://keisari.ch/blog/category/world/</loc>
+         <lastmod>2023-08-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://keisari.ch/blog/category/hello/</loc>
+         <lastmod>2023-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
