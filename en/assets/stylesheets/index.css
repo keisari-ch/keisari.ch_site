@@ -1,3 +1,5 @@
+@font-face { font-family: "Manrope"; src: url("https://fonts.gstatic.com/s/manrope/v14/xn7gYHE41ni1AdIRggexSg.woff2") format("woff2"); font-style: normal; font-weight: 300; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
 .parallax {
   -webkit-perspective: 1px;
   perspective: 1px;
@@ -6,7 +8,6 @@
   overflow: auto;
   overflow-x: hidden;
   padding-top: 0vh;
-  height: 100vh;
 }
 
 .parallax .group {
@@ -15,15 +16,23 @@
   transform-style: preserve-3d;
 }
 
+.parallax .group2 {
+  position: absolute;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
 .parallax .layer {
   position: absolute;
   width: 100%;
-  overflow: visible;
   height: 100vh;
 }
 
-/* .parallax svg {
-} */
+.parallax .layer2 {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
 
 #city1 {
   fill: #111115;
@@ -90,54 +99,36 @@
   color: #FFF;
 }
 
-.city2-front {
-  /* background: #12161e; */
-  /* background-image: linear-gradient(#111115, rgb(0, 0, 0)); */
-  background-color: #111115;
+#city2-front {
+  background-image: linear-gradient(#111115, #1a1a1f); 
   height: 20vh;
-  line-height: 0;
-  top: -6px;
-  position: relative;
+  margin-top: -1vh;
 }
 
-.city3-front {
-  /* background: #12161e; */
-  background-color: #111115;
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  margin-top: 0px;
-  line-height: 0;
-}
-
-.presentation {
-  position: relative;
+#presentation {
   /* background-color: #111115; */
-  background-image: linear-gradient(#111115, rgb(0, 0, 0));
+  background-image: linear-gradient(#1a1a1f,#000);
   background-color: #111115; 
   color: #bebebe;
   vertical-align: middle;
   text-align: center;
   min-width: 100vw;
   height: 40vh;
-  top: -15vh;
-  overflow-wrap: break-all;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: -40vh;
+
 }
 
 .presentation2 {
   flex: 1;
-  position: relative;
   color: #bebebe;
   min-width: 50vw;
   margin:auto;
-
   vertical-align: middle;
 }
 
 .presentation3 {
-  position: relative;
   margin:auto;
   color: #bebebe;
   min-width: 50vw;
@@ -149,18 +140,26 @@
   font-family: Manrope, sans-serif; 
   line-height: 1.7;
   text-align: left;
-  padding: 0  0 0 50px;
+  padding: 0 0 0 4rem;
 }
 
-@font-face { font-family: "Manrope"; src: url("https://fonts.gstatic.com/s/manrope/v14/xn7gYHE41ni1AdIRggexSg.woff2") format("woff2"); font-style: normal; font-weight: 300; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+.landing-message {
+  padding: 5em;
+  text-align: center;
+  font-size: large;
+  text-transform:uppercase;
+  color:#a594be;
+  vertical-align: middle;
+}
 
-.para2 {
+#tunnel {
   background-image: url("../../assets/images/blackwhite.jpeg");
   background-color: #000000;
   background-position: center;
-  position: relative;
-  min-width: 50vw;
+  min-width: 100vw;
   height: 50vh;
+  -webkit-transform: translateZ(0px) scale(1);
+  transform: translateZ(0px) scale(1);
 }
 
 .md-header {
@@ -176,25 +175,14 @@
   margin: 0;
   max-width: 100%;
   padding: 0;
-  height: 0;
 }
 
-.md-sidebar {
-  width: 0;
-}
-
-.landing-message {
-  padding: 5em;
-  text-align: center;
-  font-size: large;
-  text-transform:uppercase;
-  color:#a594be;
-  vertical-align: middle;
+.md-content__inner::before {
+  height: unset;
 }
 
 .md-sidebar--primary .md-sidebar--secondary {
   margin: 0;
-  width: 0;
   top: 0;
 }
 
@@ -214,11 +202,12 @@
   width: 100%;
 }
 
-.md-sidebar {
+
+
+.md-sidebar--secondary {
   width: 0;
-  padding: 0;
-  top: 0;
 }
+
 
 @media screen and (min-width:76.25em) {
   [dir=ltr] .md-sidebar--primary:not([hidden])~.md-content>.md-content__inner {
